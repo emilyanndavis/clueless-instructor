@@ -1,0 +1,39 @@
+
+/*Elements*/
+body{
+    background:#34ff00;
+}
+li{
+    list-style: none;
+}
+/*Classes*/
+.precent{
+    width:25%;
+}
+.content{
+    background:white;
+}
+.jumbotron{
+    background-color:white; 
+    color:#444;
+}
+.border-content{
+    border: 3px solid ;
+}
+.inch{
+    font-size: 144px;
+}
+
+.list-group-item{
+    display: inline-block;
+}
+.name{
+    font-size: 20px;
+    display: inline-block;
+}
+.color-block{
+    width:20px;
+    height:19px;
+    background: #34ff00;
+    display: inline-block;
+}
