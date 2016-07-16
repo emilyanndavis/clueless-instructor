@@ -14,11 +14,13 @@ li{
     background:white;
 }
 .jumbotron{
-    background-color:white; 
-    color:#444;
+    color:white; 
+    background-color:#444;
+    font-family: 'Slabo 27px', serif;
 }
 .border-content{
-    border: 3px solid ;
+    border-left:  3px #a1a1a1 solid ;
+    border-right: 3px #a1a1a1 solid ;
 }
 .inch{
     font-size: 144px;
