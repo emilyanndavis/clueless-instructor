@@ -12,17 +12,14 @@
 </head>
 
 <body>
-        
-        
+       
 
 <div class="contianer">
+    <section class="row">
+        <div id="box"><h1>15%</h1></div>
+    </section>
     <div class="row">
         <section id="content" class="content col-md-offset-2 col-md-8 border-content text-center">
-        <!--<div class="headerbar">
-            <h1 id="name">Clueless</h1>
-        </div>
-  -->
-
     <section class="row">
         <div id="precent" class="text-center" >
             <p class="inch">50%</p>
@@ -86,7 +83,24 @@
         </section>
     </div>
 </div>
-</body>
-<script src="/scripts/main.js">
+</body>0
+<!--<script src="/scripts/main.js">-->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+ <!--DONT TOUCH THIS SCRIPT -->
+        <script  type="text/javascript">
+            var i= 66;
+            $('#box').on("ready",function() {
+                console.log("after")
+                $(this).css( "margin-left", i+"%")
+                if (i>0 && i<=33.3){
+                    $(this).css("background","red")
+                };
+                if (i>33.3 && i<=66.6){
+                    $(this).css("background","yellow")
+                }
+                if (i>66.6 && i<=100){
+                    $(this).css("background","green")
+                }
+            }); 
+        </script>
 </html>

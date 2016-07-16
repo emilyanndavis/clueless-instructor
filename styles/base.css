@@ -47,3 +47,8 @@ li{
     background: #34ff00;
     display: inline-block;
 }
+/*ID*/
+#card{
+    width:5%;
+    border-left:2px solid black;
+}
