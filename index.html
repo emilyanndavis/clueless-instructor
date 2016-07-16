@@ -21,7 +21,7 @@
     <div class="row">
         <section id="content" class="content col-md-offset-2 col-md-8 border-content text-center">
     <section class="row">
-        <div id="precent" class="text-center" >
+        <div id="percent" class="text-center" >
             <p class="inch">50%</p>
         </div>
     </section>
@@ -83,24 +83,24 @@
         </section>
     </div>
 </div>
-</body>0
-<!--<script src="/scripts/main.js">-->
+</body>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="/scripts/main.js"></script>
  <!--DONT TOUCH THIS SCRIPT -->
         <script  type="text/javascript">
             var i= 66;
-            $('#box').on("ready",function() {
+            
                 console.log("after")
-                $(this).css( "margin-left", i+"%")
+                $('#box').css( "margin-left", i+"%")
                 if (i>0 && i<=33.3){
-                    $(this).css("background","red")
+                    $('#box').css("background","red")
                 };
                 if (i>33.3 && i<=66.6){
-                    $(this).css("background","yellow")
+                    $('#box').css("background","yellow")
                 }
                 if (i>66.6 && i<=100){
-                    $(this).css("background","green")
+                    $('#box').css("background","green")
                 }
-            }); 
+            
         </script>
 </html>

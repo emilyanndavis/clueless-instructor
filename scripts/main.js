@@ -65,7 +65,7 @@ function percentOf(){
 } 
 
 
-$("#precent").append(`${patternArray[3]}`)
+$("#percent").append(`${patternArray[3]}`)
 
 
 
