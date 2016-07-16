@@ -1,3 +1,4 @@
+//API callish thing
 function getData(url, callWhenDone) {
   var inputs = [];
   $.getJSON(url, function (data) {
@@ -13,17 +14,13 @@ function saveData(url, callwhendone) {
   getData(url, function(inputs) {
   for (prop in inputs) {
     if (prop[inputs]) {
-
     }
   }
 
   });
 
 }
-
-
-
-
+//average
 function average(values) {
   for (var i; i < values.length; i++) {
     var sumValues = 0
@@ -32,7 +29,7 @@ function average(values) {
    
   }
 }
-
+//counts responses
 function count(values) {
   for (var i; i < values.length; i++) {
     if (values[i] == 1) {
@@ -53,6 +50,7 @@ function count(values) {
   }
 
 }
+//precent calculator
 function percentOf(){
   patternArray = []
   var percentOf1 = values.length / numberof1

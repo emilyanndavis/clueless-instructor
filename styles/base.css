@@ -3,17 +3,17 @@
 html{
     height: 100%;
 }
-body{
-    background:#ff0D01
-}
 li{
     list-style: none;
 }
 /*Classes*/
+.green{
+    border:2px solid#34ff00;
+}
 .precent{
     width:25%;
 }
-.headerbar{
+.headerbar  {
     color:white; 
     background-color:#444;
     font-family: 'Slabo 27px', serif;
@@ -47,8 +47,13 @@ li{
     background: #34ff00;
     display: inline-block;
 }
+.header{
+    background:white;
+}
 /*ID*/
-#card{
-    width:5%;
-    border-left:2px solid black;
+#box{
+    width:20%;
+    height: 20%;
+    padding:15px;
+    border-left:5px solid #444;
 }
