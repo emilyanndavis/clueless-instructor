@@ -1,7 +1,10 @@
 
 /*Elements*/
+html{
+    height: 100%;
+}
 body{
-    background:#34ff00;
+    background:#ff0D01
 }
 li{
     list-style: none;
@@ -10,18 +13,23 @@ li{
 .precent{
     width:25%;
 }
-.content{
-    background:white;
-}
-.jumbotron{
+.headerbar{
     color:white; 
     background-color:#444;
     font-family: 'Slabo 27px', serif;
+    margin:-5px;
+    height:15%;
+    padding:10%
 }
+.content{
+    background:white;
+    height: 100%;
+}
+
 .border-content{
-    border-left:  3px #a1a1a1 solid ;
+    /*border-left:  3px #a1a1a1 solid ;
     border-right: 3px #a1a1a1 solid ;
-}
+*/}
 .inch{
     font-size: 144px;
 }
